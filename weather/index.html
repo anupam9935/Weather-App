@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+          <img  class="img" src="logo.svg" alt="">
+          <p>Weather App</p>
+        </div>
+         
+           <a href="#">Home</a>
+           <a href="#">About us</a>
+           <a href="#">Contact us</a>
+           <div class="sele">
+            <select  class="select">
+                <option value="select location">select location</option>
+                <option value="lucknow">lucknow</option>
+                <option value="delhi">delhi</option>
+                <option value="goa">goa</option>
+                <option value="bangalore">bangalore</option>
+                <option value="pune">pune</option>
+                <option value="patna">patna</option>
+                <option value="chennai">chennai</option>
+                <option value="hyderabad">hyderabad</option>
+                <option value="surat">surat</option>
+                <option value="mumbai">mumbai</option>
+                <option value="jaipur">jaipur</option>
+                <option value="bhopal">bhopal</option>
+             </select>
+             <button class="btn1" type="submit">Search</button>
+           </div>
+           
+           <div class="search">
+                <input class="in" type="search"  placeholder="enter location" aria-label="Search">
+                <button class="btn2" type="submit">Search</button>
+           </div>
+    </div>
+    <div class="body">
+           <div class="city_name">Location :
+           </div>
+            <div class="box">
+                <h2>Temperature</h2>
+                <img height="50%" width="90%" style="margin-left: 10px;" src="https://tse4.mm.bing.net/th?id=OIP._X26y41BgMuy9rkaGUzA1gHaE8&pid=Api&P=0&h=220" alt="">
+                <p class="temp">Temperature =></p>
+            </div>
+            <div class="box">
+                <h2>Humidity</h2>
+                <img height="50%" width="90%" style="margin-left: 10px;" src="https://tse1.mm.bing.net/th?id=OIP.sBG3Zuz4DP5PjIFGbgxclQHaE8&pid=Api&P=0&h=220" alt="">
+                <p class="hum">Humidity=></p>
+            </div>
+            <div class="box">
+                <h2>Wind Speed</h2>
+                <img height="50%" width="90%" style="margin-left: 10px;" src="https://tse1.mm.bing.net/th?id=OIP.jka6rS2SSunKES4BM95qAQHaEc&pid=Api&P=0&h=220" alt="">
+                <p class="wind">Wind Speed=></p>
+            </div>
+            <div class="box">
+                <h2>Cloud</h2>
+                <img height="50%" width="90%" style="margin-left: 10px;" src="https://tse1.mm.bing.net/th?id=OIP.dOAZsSAxaIQRh0B4-JA6awHaFa&pid=Api&P=0&h=220" alt="err">
+                <p class="clo">Cloud=></p>
+            </div>
+    </div>
+    <div class="footer">
+        <p>More About Our Website</p>
+        <p>Our weather app provides accurate and up-to-date weather forecasts for locations around the globe. Whether you're planning a trip or just need to know if you should bring an umbrella, we've got you covered.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

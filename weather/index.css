@@ -1,0 +1,95 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.navbar{
+    color: white;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 62, 62);
+    padding: 10px;
+    font-size: larger;
+    border: 2px solid black;
+    
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.select{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 130%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.img{
+    background-color: aliceblue;
+    height: 100%;
+}
+.in , .btn{
+    position: relative;
+    height: 130%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn2 ,.btn1{
+    background-color: chocolate;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(13, 50, 51);
+    width: 100%;
+    height: 10%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+   color: white;
+}
+.logo{
+    display: flex;
+    font-size: 20px;
+    height: 100%;
+    width: 10%;
+}
+p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.body{
+    height: 550px;
+    background-image: url('https://wallpaperaccess.com/full/2942914.jpg');
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+.box{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.city_name{
+    color: white;
+    font-size: 50px;
+    padding-left: 40%;
+    padding-top: 60px;
+    bottom: 0%;
+}
+.search{
+    height: 100%;
+}
+.temp , .hum , .clo,.wind{
+    font-size: 25px;
+}
